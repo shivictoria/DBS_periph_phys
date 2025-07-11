@@ -1,0 +1,19 @@
+name: Re-build index.html
+on:
+  push:
+    paths:
+      - 'data/**.html'     # whenever a figure is added/removed
+      - '.github/workflows/build-index.yml'
+      - 'build_index.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild index.html
+        run: python3 build_index.py
+      - name: Commit & push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-regenerate index.html"
