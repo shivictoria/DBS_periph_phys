@@ -1,4 +1,5 @@
 name: Re-build index.html
+
 on:
   push:
     paths:
