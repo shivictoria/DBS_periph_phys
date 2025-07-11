@@ -20,7 +20,7 @@ def main(dry: bool = False) -> None:
         raise SystemExit("❌  No .html files found in ./data")
 
     for idx, old_path in enumerate(html_files, start=1):
-        new_name = f"PR07-file{idx}.html"
+        new_name = f"PR07-file{idx:03d}.html"
         new_path = old_path.with_name(new_name)
         if dry:
             print(f"[dry-run] {old_path.name}  →  {new_name}")
@@ -30,6 +30,7 @@ def main(dry: bool = False) -> None:
 
     suffix = " (dry-run, nothing changed)" if dry else ""
     print(f"✔️  Completed{suffix}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Batch-rename Plotly HTML files")
