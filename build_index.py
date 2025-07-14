@@ -183,7 +183,7 @@ def make_homepage(categories):
   <h1>DBS Peripheral Physiology</h1>
   
   <div class="intro">
-    <p>Multimodal data collection and visualisation of peripheral physiological data during deep brain stimulation monitoring research.</p>
+    <p>Multimodal data collection and visualisation of peripheral physiological data during multi-day eep brain stimulation monitoring research.</p>
   </div>
 
   <h2>Projects</h2>
