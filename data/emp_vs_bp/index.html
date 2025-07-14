@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>emp_vs_bp – DBS Peripheral Phys</title>
+
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+      }
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      }
+      h1 {
+        color: #2c3e50;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 2em;
+      }
+      h2 {
+        color: #34495e;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-left: 4px solid #3498db;
+        padding-left: 15px;
+      }
+      .intro {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        border-left: 4px solid #3498db;
+        margin: 20px 0;
+      }
+      .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        margin: 30px 0;
+      }
+      .category-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #e9ecef;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .category-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      }
+      .category-card h3 {
+        color: #2c3e50;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+      .category-card p {
+        color: #6c757d;
+        margin-bottom: 15px;
+        font-size: 0.9em;
+      }
+      .category-card a {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .category-card a:hover {
+        text-decoration: underline;
+      }
+      .figure-list {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      .figure-list li {
+        background: #f8f9fa;
+        margin: 10px 0;
+        padding: 15px 20px;
+        border-radius: 8px;
+        border: 1px solid #e9ecef;
+        transition: background-color 0.2s ease;
+      }
+      .figure-list li:hover {
+        background: #e9ecef;
+      }
+      .figure-list a {
+        color: #2c3e50;
+        text-decoration: none;
+        font-weight: 500;
+        display: block;
+      }
+      .figure-list a:hover {
+        color: #3498db;
+      }
+      .back-link {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+        text-align: center;
+      }
+      .back-link a {
+        color: #7f8c8d;
+        text-decoration: none;
+        font-size: 0.9em;
+      }
+      .back-link a:hover {
+        text-decoration: underline;
+      }
+      .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+        text-align: center;
+        color: #6c757d;
+        font-size: 0.8em;
+      }
+    </style>
+    
+</head>
+<body>
+<div class="container">
+  <h1>emp_vs_bp</h1>
+  
+  <div class="intro">
+    <p>Comparative analysis between Empatica wearable sensors and Bioac laboratory measurements for physiological monitoring validation.</p>
+  </div>
+
+  <h2>Available Figures</h2>
+  <ul class="figure-list">
+    <li><a href="ECG_empatica_bp_comparison_000.html">ECG_empatica_bp_comparison_000</a></li>
+    <li><a href="ECG_empatica_bp_comparison_001.html">ECG_empatica_bp_comparison_001</a></li>
+    <li><a href="ECG_empatica_bp_comparison_002.html">ECG_empatica_bp_comparison_002</a></li>
+    <li><a href="ECG_empatica_bp_comparison_003.html">ECG_empatica_bp_comparison_003</a></li>
+    <li><a href="ECG_empatica_bp_comparison_004.html">ECG_empatica_bp_comparison_004</a></li>
+    <li><a href="ECG_empatica_bp_comparison_005.html">ECG_empatica_bp_comparison_005</a></li>
+    <li><a href="ECG_empatica_bp_comparison_006.html">ECG_empatica_bp_comparison_006</a></li>
+    <li><a href="ECG_empatica_bp_comparison_007.html">ECG_empatica_bp_comparison_007</a></li>
+    <li><a href="ECG_empatica_bp_comparison_008.html">ECG_empatica_bp_comparison_008</a></li>
+    <li><a href="ECG_empatica_bp_comparison_009.html">ECG_empatica_bp_comparison_009</a></li>
+    <li><a href="ECG_empatica_bp_comparison_010.html">ECG_empatica_bp_comparison_010</a></li>
+    <li><a href="ECG_empatica_bp_comparison_011.html">ECG_empatica_bp_comparison_011</a></li>
+    <li><a href="ECG_empatica_bp_comparison_012.html">ECG_empatica_bp_comparison_012</a></li>
+    <li><a href="ECG_empatica_bp_comparison_013.html">ECG_empatica_bp_comparison_013</a></li>
+    <li><a href="ECG_empatica_bp_comparison_014.html">ECG_empatica_bp_comparison_014</a></li>
+    <li><a href="ECG_empatica_bp_comparison_015.html">ECG_empatica_bp_comparison_015</a></li>
+    <li><a href="ECG_empatica_bp_comparison_016.html">ECG_empatica_bp_comparison_016</a></li>
+    <li><a href="ECG_empatica_bp_comparison_017.html">ECG_empatica_bp_comparison_017</a></li>
+    <li><a href="ECG_empatica_bp_comparison_018.html">ECG_empatica_bp_comparison_018</a></li>
+    <li><a href="ECG_empatica_bp_comparison_019.html">ECG_empatica_bp_comparison_019</a></li>
+    <li><a href="ECG_empatica_bp_comparison_020.html">ECG_empatica_bp_comparison_020</a></li>
+    <li><a href="ECG_empatica_bp_comparison_021.html">ECG_empatica_bp_comparison_021</a></li>
+    <li><a href="ECG_empatica_bp_comparison_022.html">ECG_empatica_bp_comparison_022</a></li>
+    <li><a href="ECG_empatica_bp_comparison_023.html">ECG_empatica_bp_comparison_023</a></li>
+    <li><a href="ECG_empatica_bp_comparison_024.html">ECG_empatica_bp_comparison_024</a></li>
+    <li><a href="ECG_empatica_bp_comparison_025.html">ECG_empatica_bp_comparison_025</a></li>
+    <li><a href="ECG_empatica_bp_comparison_026.html">ECG_empatica_bp_comparison_026</a></li>
+    <li><a href="ECG_empatica_bp_comparison_027.html">ECG_empatica_bp_comparison_027</a></li>
+    <li><a href="ECG_empatica_bp_comparison_028.html">ECG_empatica_bp_comparison_028</a></li>
+    <li><a href="ECG_empatica_bp_comparison_029.html">ECG_empatica_bp_comparison_029</a></li>
+    <li><a href="ECG_empatica_bp_comparison_030.html">ECG_empatica_bp_comparison_030</a></li>
+    <li><a href="ECG_empatica_bp_comparison_031.html">ECG_empatica_bp_comparison_031</a></li>
+    <li><a href="ECG_empatica_bp_comparison_032.html">ECG_empatica_bp_comparison_032</a></li>
+    <li><a href="ECG_empatica_bp_comparison_033.html">ECG_empatica_bp_comparison_033</a></li>
+    <li><a href="ECG_empatica_bp_comparison_034.html">ECG_empatica_bp_comparison_034</a></li>
+    <li><a href="ECG_empatica_bp_comparison_035.html">ECG_empatica_bp_comparison_035</a></li>
+    <li><a href="ECG_empatica_bp_comparison_036.html">ECG_empatica_bp_comparison_036</a></li>
+    <li><a href="ECG_empatica_bp_comparison_037.html">ECG_empatica_bp_comparison_037</a></li>
+    <li><a href="ECG_empatica_bp_comparison_038.html">ECG_empatica_bp_comparison_038</a></li>
+    <li><a href="ECG_empatica_bp_comparison_039.html">ECG_empatica_bp_comparison_039</a></li>
+    <li><a href="EDA_empatica_bp_comparison_000.html">EDA_empatica_bp_comparison_000</a></li>
+    <li><a href="EDA_empatica_bp_comparison_001.html">EDA_empatica_bp_comparison_001</a></li>
+    <li><a href="EDA_empatica_bp_comparison_002.html">EDA_empatica_bp_comparison_002</a></li>
+    <li><a href="EDA_empatica_bp_comparison_003.html">EDA_empatica_bp_comparison_003</a></li>
+    <li><a href="EDA_empatica_bp_comparison_004.html">EDA_empatica_bp_comparison_004</a></li>
+    <li><a href="EDA_empatica_bp_comparison_005.html">EDA_empatica_bp_comparison_005</a></li>
+    <li><a href="EDA_empatica_bp_comparison_006.html">EDA_empatica_bp_comparison_006</a></li>
+    <li><a href="EDA_empatica_bp_comparison_007.html">EDA_empatica_bp_comparison_007</a></li>
+    <li><a href="EDA_empatica_bp_comparison_008.html">EDA_empatica_bp_comparison_008</a></li>
+    <li><a href="EDA_empatica_bp_comparison_009.html">EDA_empatica_bp_comparison_009</a></li>
+    <li><a href="EDA_empatica_bp_comparison_010.html">EDA_empatica_bp_comparison_010</a></li>
+    <li><a href="EDA_empatica_bp_comparison_011.html">EDA_empatica_bp_comparison_011</a></li>
+    <li><a href="EDA_empatica_bp_comparison_012.html">EDA_empatica_bp_comparison_012</a></li>
+    <li><a href="EDA_empatica_bp_comparison_013.html">EDA_empatica_bp_comparison_013</a></li>
+    <li><a href="EDA_empatica_bp_comparison_014.html">EDA_empatica_bp_comparison_014</a></li>
+    <li><a href="EDA_empatica_bp_comparison_015.html">EDA_empatica_bp_comparison_015</a></li>
+    <li><a href="EDA_empatica_bp_comparison_016.html">EDA_empatica_bp_comparison_016</a></li>
+    <li><a href="EDA_empatica_bp_comparison_017.html">EDA_empatica_bp_comparison_017</a></li>
+    <li><a href="EDA_empatica_bp_comparison_018.html">EDA_empatica_bp_comparison_018</a></li>
+    <li><a href="EDA_empatica_bp_comparison_019.html">EDA_empatica_bp_comparison_019</a></li>
+    <li><a href="EDA_empatica_bp_comparison_020.html">EDA_empatica_bp_comparison_020</a></li>
+    <li><a href="EDA_empatica_bp_comparison_021.html">EDA_empatica_bp_comparison_021</a></li>
+    <li><a href="EDA_empatica_bp_comparison_022.html">EDA_empatica_bp_comparison_022</a></li>
+    <li><a href="EDA_empatica_bp_comparison_023.html">EDA_empatica_bp_comparison_023</a></li>
+    <li><a href="EDA_empatica_bp_comparison_024.html">EDA_empatica_bp_comparison_024</a></li>
+    <li><a href="EDA_empatica_bp_comparison_025.html">EDA_empatica_bp_comparison_025</a></li>
+    <li><a href="EDA_empatica_bp_comparison_026.html">EDA_empatica_bp_comparison_026</a></li>
+    <li><a href="EDA_empatica_bp_comparison_027.html">EDA_empatica_bp_comparison_027</a></li>
+    <li><a href="EDA_empatica_bp_comparison_028.html">EDA_empatica_bp_comparison_028</a></li>
+    <li><a href="EDA_empatica_bp_comparison_029.html">EDA_empatica_bp_comparison_029</a></li>
+    <li><a href="EDA_empatica_bp_comparison_030.html">EDA_empatica_bp_comparison_030</a></li>
+    <li><a href="EDA_empatica_bp_comparison_031.html">EDA_empatica_bp_comparison_031</a></li>
+    <li><a href="EDA_empatica_bp_comparison_032.html">EDA_empatica_bp_comparison_032</a></li>
+    <li><a href="EDA_empatica_bp_comparison_033.html">EDA_empatica_bp_comparison_033</a></li>
+    <li><a href="EDA_empatica_bp_comparison_034.html">EDA_empatica_bp_comparison_034</a></li>
+    <li><a href="EDA_empatica_bp_comparison_035.html">EDA_empatica_bp_comparison_035</a></li>
+    <li><a href="EDA_empatica_bp_comparison_036.html">EDA_empatica_bp_comparison_036</a></li>
+    <li><a href="EDA_empatica_bp_comparison_037.html">EDA_empatica_bp_comparison_037</a></li>
+    <li><a href="EDA_empatica_bp_comparison_038.html">EDA_empatica_bp_comparison_038</a></li>
+    <li><a href="EDA_empatica_bp_comparison_039.html">EDA_empatica_bp_comparison_039</a></li>
+  </ul>
+
+  <div class="back-link">
+    <a href="../../index.html">← Back to Categories</a>
+  </div>
+
+  <div class="footer">
+    <small>Last updated 2025-07-14</small>
+  </div>
+</div>
+</body>
+</html>
