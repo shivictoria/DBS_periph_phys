@@ -1,6 +1,6 @@
 # DBS_periph_phys
 
-This repository contains technical visualisations for verifying data stream synchronisations to support monitoring of peripheral physiology during deep brain stimulation research, fouund [here](https://shivictoria.github.io/DBS_periph_phys/).
+This repository contains technical visualisations for verifying data stream synchronisations to support monitoring of peripheral physiology during deep brain stimulation research, found [here](https://shivictoria.github.io/DBS_periph_phys/).
 
 ## Contents
 
