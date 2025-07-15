@@ -211,7 +211,7 @@ def make_category_page(cat: Path, html_files):
         title = p.stem
         # Special handling for story pages
         if "_sync_story" in p.name:
-            title = title.replace("_sync_story", " - Synchronization Story")
+            title = title.replace("_sync_story", " - Synchronisation")
         elif "_timeline_" in p.name:
             title = title.replace("_timeline_", " Timeline - ").replace("presync", "Pre-sync").replace("postsync", "Post-sync")
         
